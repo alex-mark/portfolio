@@ -2,7 +2,7 @@
   "main": {
     "name": "Alex Markin",
     "occupation": "Python && ReactJS Developer",
-    "description": "Full Stack Developer by Day, Founder && Freelancer by Night.",
+    "description": "Full Stack Developer by Day, Founder && Freelancer by Night",
     "image": "IG_Alex.jpeg",
     "bio": "My name is Alex, I'm a Full Stack ReactJS & Python Developer. Currently, I'm working on my startup and as a freelancer.",
     "contactmessage": "Get in touch with me to receive further details, to hire me, or for anything else.",
@@ -44,7 +44,7 @@
         "school": "Moscow Institute of Physics and Technology",
         "degree": "Masters in Applied Math and Physics",
         "graduated": "June 2017",
-        "description": "Special program of Technological Entrepreneurship: additional Business courses and tech project applied in real business"
+        "description": "Special program of Technological Entrepreneurship: additional Business courses and tech project applied in real business."
       },
       {
         "school": "Bauman Moscow State Technical University",
@@ -58,19 +58,19 @@
         "company": "TechAudit",
         "title": "Managing partner & Co-founder",
         "years": "February 2018 - September 2020",
-        "description": "Tech consulting company. Among clients: VkusVill, Leroy Merlin, Magnit, ChemRar, CarMoney"
+        "description": "Tech consulting company. Among clients: VkusVill, Leroy Merlin, Magnit, ChemRar, CarMoney."
       },
       {
         "company": "StyleMan",
         "title": "CEO & co-founder",
         "years": "2017",
-        "description": "Online service helps people to create the right outfit. Upload your photo, sizes, and goals – get 3 looks that you can order online. Hired 5 part-time stylists, tested demand for a couple of months. Too high customer acquisition cost made the idea unprofitable"
+        "description": "Online service helps people to create the right outfit. Upload your photo, sizes, and goals – get 3 looks that you can order online. Hired 5 part-time stylists, tested demand for a couple of months. Too high customer acquisition cost made the idea unprofitable."
       },
       {
         "company": "VimpelCom (BeeLine)",
         "title": "Intern (software engineer)",
         "years": "October 2014 - June 2017",
-        "description": "Development of an integration platform for BeeLine digital services. Planform API, integration with services APIs; tech stack: Java, Netty, JS, React"
+        "description": "Development of an integration platform for BeeLine digital services. Planform API, integration with services APIs; tech stack: Java, Netty, JS, React."
       }
     ],
     "skills": [
