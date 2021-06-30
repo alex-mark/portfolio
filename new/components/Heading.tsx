@@ -7,9 +7,13 @@ interface HeadingProps {}
 const Heading = ({}) => {
   return (
     <Container>
-      <Text>{"I'm Alex, and I like to"}</Text>
+      <Text>{"I'm Alex Markin, and I like to"}</Text>
       <Header>build + design</Header>
       <SocialButtons style={{ marginTop: "15px" }} />
+      {/* <p>
+        I build websites and apps, often with React/Next.js, React Native, and
+        TypeScript.
+      </p> */}
     </Container>
   );
 };

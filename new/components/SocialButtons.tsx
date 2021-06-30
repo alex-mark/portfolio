@@ -5,6 +5,7 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import React from "react";
+import { StravaIcon } from "./Icons";
 
 interface SocialButtonsProps {
   style?: React.CSSProperties;
@@ -12,14 +13,19 @@ interface SocialButtonsProps {
 
 const socialData = [
   {
-    name: "facebook",
-    url: "https://www.facebook.com/alexandr.markin.9/",
-    Icon: FacebookIcon,
-  },
-  {
     name: "linkedin",
     url: "https://www.linkedin.com/in/alex-mark-in/",
     Icon: LinkedInIcon,
+  },
+  {
+    name: "github",
+    url: "https://github.com/alex-mark",
+    Icon: GitHubIcon,
+  },
+  {
+    name: "facebook",
+    url: "https://www.facebook.com/alexandr.markin.9/",
+    Icon: FacebookIcon,
   },
   {
     name: "instagram",
@@ -27,9 +33,9 @@ const socialData = [
     Icon: InstagramIcon,
   },
   {
-    name: "github",
-    url: "https://github.com/alex-mark",
-    Icon: GitHubIcon,
+    name: "strava",
+    url: "https://www.strava.com/athletes/36414833",
+    Icon: StravaIcon,
   },
 ];
 
