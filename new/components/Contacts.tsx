@@ -25,7 +25,7 @@ const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 48px;
+  padding: 20px 48px 15px 48px;
 `;
 const Text = styled.p`
   font-size: 1rem;
@@ -33,6 +33,7 @@ const Text = styled.p`
   font-weight: 400;
   line-height: 1.5;
   text-align: center;
+  margin-bottom: 40px;
 `;
 const SecondaryText = styled.p`
   font-size: 0.875rem;
