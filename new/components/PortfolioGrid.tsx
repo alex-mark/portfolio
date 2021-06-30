@@ -1,4 +1,5 @@
 import React from "react";
+import { portfolioProjects } from "../utils/constants";
 
 interface PortfolioGridProps {}
 
