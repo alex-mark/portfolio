@@ -1,5 +1,4 @@
 import styled from "@emotion/styled";
-import { Grid } from "@material-ui/core";
 import React from "react";
 import { portfolioProjects } from "../utils/constants";
 import PortfolioCard from "./PortfolioCard";
@@ -9,14 +8,17 @@ interface PortfolioGridProps {}
 const PortfolioGrid = ({}) => {
   return (
     <Container>
-      {portfolioProjects.map((p, idx) => (
-        <PortfolioCard
-          key={idx}
-          style={{ margin: 20, maxWidth: 500, width: "45%" }}
-          {...p}
-          image={`/images/portfolio/${p.image}`}
-        />
-      ))}
+      <Header>some demo projects</Header>
+      <Grid>
+        {portfolioProjects.map((p, idx) => (
+          <PortfolioCard
+            key={idx}
+            style={{ margin: 20, maxWidth: 500, width: "45%" }}
+            {...p}
+            image={`/images/portfolio/${p.image}`}
+          />
+        ))}
+      </Grid>
     </Container>
   );
 };
@@ -24,16 +26,27 @@ const PortfolioGrid = ({}) => {
 export default PortfolioGrid;
 
 const Container = styled.div`
+  margin: 48px;
+`;
+
+const Grid = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   max-width: 800px;
-  margin: 48px auto;
+  margin: 0 auto;
 
   @media (max-width: 600px) {
     width: 100%;
     flex-direction: column;
   }
+`;
+
+const Header = styled.h2`
+  font-size: 40px;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
 `;

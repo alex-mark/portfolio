@@ -7,8 +7,9 @@ interface ContactsProps {}
 const Contacts = ({}) => {
   return (
     <Container>
+      <Header>Want to get in touch?</Header>
       <Text>
-        Want to get in touch? Send me an email at{" "}
+        Send me an email at{" "}
         <Link type="email" href="mailto:alex@alexmarkin.com">
           alex@alexmarkin.com
         </Link>
@@ -25,7 +26,15 @@ const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px 48px 15px 48px;
+  padding: 48px 48px 15px 48px;
+  border-top: 1px solid #ddd;
+`;
+const Header = styled.h3`
+  font-size: 40px;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
 `;
 const Text = styled.p`
   font-size: 1rem;
@@ -33,7 +42,7 @@ const Text = styled.p`
   font-weight: 400;
   line-height: 1.5;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 70px;
 `;
 const SecondaryText = styled.p`
   font-size: 0.875rem;

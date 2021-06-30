@@ -2,13 +2,13 @@ import React from "react";
 import Contacts from "../components/Contacts";
 import Heading from "../components/Heading";
 import PortfolioGrid from "../components/PortfolioGrid";
-import ProjectCard from "../components/ProjectCard";
+import MainProjects from "../components/MainProjects";
 
 const Home = () => {
   return (
     <div>
       <Heading />
-      <ProjectCard />
+      <MainProjects />
       {/* Lima */}
       {/* Winemap.me */}
       <PortfolioGrid />
