@@ -9,26 +9,26 @@ const MainProjects = ({}) => {
       <ProjectWrapper>
         {/* Add preview or logo */}
         {/* Add link */}
-        <h2>Thinc</h2>
-        <p>Collaborative knowledge management tool</p>
+        <Header>Thinc</Header>
+        <Text>Collaborative knowledge management tool</Text>
         {/* Switch to chips */}
-        <p>Beta is coming soon.</p>
+        <Text>Beta is coming soon.</Text>
       </ProjectWrapper>
 
       <ProjectWrapper>
         {/* Add preview or logo */}
         {/* Add link */}
-        <h2>Winemap.me</h2>
-        <p>Technology demonstrator that turned into real product.</p>
-        <p>
+        <Header>Winemap.me</Header>
+        <Text>Technology demonstrator that turned into real product.</Text>
+        <Text>
           If you happened to be in Moscow – find a good place to enjoy some
           wine.
-        </p>
+        </Text>
         {/* Switch to chips */}
-        <p>
+        <Text>
           Under the hood: React, Next.js, Apollo GraphQL, TypeScript, TypeOrm,
           PostgreSQL.
-        </p>
+        </Text>
       </ProjectWrapper>
     </Container>
   );
@@ -37,9 +37,22 @@ const MainProjects = ({}) => {
 export default MainProjects;
 
 const Container = styled.div`
-  margin: 48px;
+  padding: 48px;
+  border-bottom: 1px solid #ddd;
 `;
 
 const ProjectWrapper = styled.div`
   margin-bottom: 30px;
+`;
+
+const Header = styled.h3`
+  font-size: 34px;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 700;
+  margin-bottom: 15px;
+`;
+const Text = styled.p`
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "Fira Mono", Menlo, monospace;
 `;
