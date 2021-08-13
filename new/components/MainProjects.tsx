@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import { Link } from "@material-ui/core";
 import React from "react";
 
 interface ProjectCardProps {}
@@ -10,25 +11,31 @@ const MainProjects = ({}) => {
         {/* Add preview or logo */}
         {/* Add link */}
         <Header>Thinc</Header>
-        <Text>Collaborative knowledge management tool</Text>
+        <Text>Collaborative knowledge management tool.</Text>
         {/* Switch to chips */}
         <Text>Beta is coming soon.</Text>
       </ProjectWrapper>
 
       <ProjectWrapper>
         {/* Add preview or logo */}
-        {/* Add link */}
-        <Header>Winemap.me</Header>
-        <Text>Technology demonstrator that turned into real product.</Text>
+        <a href="https://winemap.me">
+          <Header>Winemap.me</Header>
+        </a>
         <Text>
           If you happened to be in Moscow – find a good place to enjoy some
           wine.
         </Text>
+        <Text>Technology demonstrator that turned into real product.</Text>
         {/* Switch to chips */}
         <Text>
           Under the hood: React, Next.js, Apollo GraphQL, TypeScript, TypeOrm,
           PostgreSQL.
         </Text>
+      </ProjectWrapper>
+
+      <ProjectWrapper>
+        <Header>PathFinder</Header>
+        <Text>Visualizer for popular path finding algorithms.</Text>
       </ProjectWrapper>
     </Container>
   );
@@ -37,12 +44,15 @@ const MainProjects = ({}) => {
 export default MainProjects;
 
 const Container = styled.div`
-  padding: 48px;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 48px 15px;
   border-bottom: 1px solid #ddd;
 `;
 
 const ProjectWrapper = styled.div`
-  margin-bottom: 30px;
+  margin-bottom: 45px;
 `;
 
 const Header = styled.h3`
@@ -55,4 +65,5 @@ const Text = styled.p`
   font-size: 17px;
   font-weight: 400;
   font-family: "Fira Mono", Menlo, monospace;
+  line-height: 1.5;
 `;

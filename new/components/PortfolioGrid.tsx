@@ -13,7 +13,7 @@ const PortfolioGrid = ({}) => {
         {portfolioProjects.map((p, idx) => (
           <PortfolioCard
             key={idx}
-            style={{ margin: 20, maxWidth: 500, width: "45%" }}
+            style={{ maxWidth: 350, width: "45%", marginBottom: 60 }}
             {...p}
             image={`/images/portfolio/${p.image}`}
           />
@@ -26,16 +26,20 @@ const PortfolioGrid = ({}) => {
 export default PortfolioGrid;
 
 const Container = styled.div`
-  margin: 48px;
+  padding: 48px 10px;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
 `;
 
 const Grid = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: center;
-  max-width: 800px;
+  align-items: space-around;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 700px;
   margin: 0 auto;
 
   @media (max-width: 600px) {
