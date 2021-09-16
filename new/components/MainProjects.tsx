@@ -7,14 +7,11 @@ interface ProjectCardProps {}
 const MainProjects = ({}) => {
   return (
     <Container>
-      <ProjectWrapper>
-        {/* Add preview or logo */}
-        {/* Add link */}
+      {/* <ProjectWrapper>
         <Header>Thinc</Header>
         <Text>Collaborative knowledge management tool.</Text>
-        {/* Switch to chips */}
         <Text>Beta is coming soon.</Text>
-      </ProjectWrapper>
+      </ProjectWrapper> */}
 
       <ProjectWrapper>
         {/* Add preview or logo */}
@@ -33,10 +30,10 @@ const MainProjects = ({}) => {
         </Text>
       </ProjectWrapper>
 
-      <ProjectWrapper>
+      {/* <ProjectWrapper>
         <Header>PathFinder</Header>
         <Text>Visualizer for popular path finding algorithms.</Text>
-      </ProjectWrapper>
+      </ProjectWrapper> */}
     </Container>
   );
 };
